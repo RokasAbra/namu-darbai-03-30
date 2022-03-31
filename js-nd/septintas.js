@@ -5,17 +5,12 @@
 let month = 5;
 daysInMonth = new Date(2022, month, 0).getDate();
 console.log('Pasirinktame menesyje yra:', daysInMonth);
-const day = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
-/////////////////
+/////////////////////////////////////////////////////////////////////
 
-let days = [28, 30, 31];
-let menuo = 5;
+const menuo = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
 
-if (menuo === 2) {
-    days = days[0];
-} else if (menuo === 0 || menuo === 2 || menuo === 4 || menuo === 6 || menuo === 7 || menuo === 8 || menuo === 9) {
-    days = days[1]
-} else {
-    days = days[2]
-} 
-    console.log(`Sio menesio dienu skaicius yra ${days}`);
+console.log(`Sio menesio dienu skaicius yra ${menuo[10]}`);
+
+let n=5;
+console.log(`ats. d=${menuo [n]}`);
+

@@ -18,8 +18,10 @@ const kiekMinuciu = v1 * 60 + m1;
 console.log(kiekMinuciu);
 const kadaPaveluos = v * 60 + m;
 console.log(kadaPaveluos);
-if (kadaPaveluos < kiekMinuciu + m2 ) {
+if (kadaPaveluos <= kiekMinuciu + m2 ) {
     console.log('Petras i pamoka paveluos');
 } else {
     console.log('Petras i pamoka nepaveluos');
 }
+console.log('--------------');
+
